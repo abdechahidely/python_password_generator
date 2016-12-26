@@ -139,5 +139,4 @@ def generator(text, positions_to_change):
 
 if __name__ == '__main__':
 	x = user_input()
-	print(positions_to_change(x))
 	print(generator(x, positions_to_change(x)))
